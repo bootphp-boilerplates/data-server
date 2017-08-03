@@ -11,6 +11,7 @@ $ brew install mongodb
 $ mkdir -p /data/db
 $ mongod --dbpath /data/db
 ```
+[Reference](https://stackoverflow.com/questions/30204938/how-to-install-php-mongodb-driver-for-xampp-on-osx)
 
 #### OpenSSL install
 ```
@@ -19,8 +20,8 @@ $ brew install wget
 
 $ cd /usr/local/include 
 $ ln -s ../opt/openssl/include/openssl .
-// REFERENCE : https://github.com/mongodb/mongo-php-driver/issues/523
 ```
+[Reference](https://github.com/mongodb/mongo-php-driver/issues/523)
 
 #### Install Driver
 ```
@@ -33,7 +34,7 @@ $ sudo echo "extension=mongodb.so" >> /Applications/XAMPP/xamppfiles/etc/php.ini
 #### If apache not start
 ```
 $ sudo /Applications/XAMPP/xamppfiles/bin/httpd -E /Applications/XAMPP/xamppfiles/logs/error_log -D SSL -D PHP
-// REFER ISSUE : https://github.com/mongodb/mongo-php-driver/issues/247
 ```
+[Reference](https://github.com/mongodb/mongo-php-driver/issues/247)
 
 
