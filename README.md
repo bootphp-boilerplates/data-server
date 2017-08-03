@@ -27,6 +27,7 @@ $ ln -s ../opt/openssl/include/openssl .
 ```
 $ brew install autoconf
 $ sudo /Applications/XAMPP/xamppfiles/bin/pecl install mongodb
+//NOTE :- The line configuration option "php_ini" is not set to php.ini location is always followed by another one telling you what is wrong. So note that one.
 $ sudo echo "extension=mongodb.so" >> /Applications/XAMPP/xamppfiles/etc/php.ini
 //Restarted Apache
 ```
